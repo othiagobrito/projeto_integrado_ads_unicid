@@ -14,11 +14,10 @@
     <body>
         <header></header>
 
-
         @yield('content')
 
         <footer class="bg-light small text-center text-lg-start fixed-bottom">
-            <div class="text-center p-0" style="background-color: #e9effc;">
+            <div class="text-center p-0 theme-color-light">
                 <span class="text-dark"><strong>Ponto Estética</strong></span>
                 <div>
                     &copy; {{ now()->year }}

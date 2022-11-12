@@ -9,18 +9,18 @@
 @section('content')
     <main class="form-signin text-center">
         <form action="">
-            <img src="" alt="">
+            <img class="img-thumbnail card-img mb-4" src="{{ asset('imgs/logo.png') }}" width="150px" height="150px">
             
             <h1 class="h3 mb-3 fw-normal">Faça Login</h1>
 
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
+                <input type="email" class="form-control" id="floatingInput" placeholder="conta@gmail.com">
+                <label for="floatingInput">Email</label>
             </div>
 
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+                <label for="floatingPassword">Senha</label>
             </div>
 
             <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
@@ -29,5 +29,5 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ asset('js/teste.js') }}"></script>
+
 @endsection
